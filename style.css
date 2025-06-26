@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.game-cover {
+    background: url("https://img.freepik.com/free-photo/3d-neon-lights-background_23-2150710762.jpg?uid=R187959052&ga=GA1.1.443468010.1750915066&semt=ais_hybrid&w=740") no-repeat;
+    background-size: cover;
+}
+
+body {
+    font-family: 'Russo One', sans-serif;
+    color: rgb(3, 3, 3);
+    height: 100vh;
+    flex-direction: column;
+}
+
+.flex-centered {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.game {
+    background: url("https://img.freepik.com/free-photo/3d-neon-lights-background_23-2150710762.jpg?uid=R187959052&ga=GA1.1.443468010.1750915066&semt=ais_hybrid&w=740") no-repeat;
+    background-size: cover;
+}
+
+#logo {
+    width: 30%;
+    height: 70%;
+    border-radius: 50%;
+    
+}
+
+.play {
+    width: 80px;
+    cursor: pointer;
+}
+
+#numbers {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: rgb(236, 226, 226);
+}
+
+.number-holder {
+    background-color: rgb(0, 0, 0);
+    color: rgb(252, 244, 244);
+    width: 25vw;
+    max-width: 200px;
+    max-height: 200px;
+    height: 25vw;
+    border: 2px solid #EE2689;
+}
+
+#instructions {
+    font-size: 6vw;
+}
+
+#numbers * {
+    font-size: 4vw;
+}
+
+#buttons * {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    aspect-ratio: 1;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#timer {
+    width: 10%;
+    position: absolute;
+    top: 5vh;
+    right: 5vh;
+    font-size: 6vw;
+    border: 1px solid rgb(11, 9, 9);
+    border-radius: 3px;
+}
+
+#game-over-text {
+    width: 50%;
+    max-width: 500px;
+}
+
+#score-box {
+    font-size: 6vw;
+    border: 1px solid rgb(20, 18, 18);
+    padding: 2vw;
+    color: black
+}
+#play-again-button {
+    width: 150px;
+    height: 100px;
+    object-fit: cover;
+    border: 3px solid white;
+    border-radius: 12px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#play-again-button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px white;
+    cursor: pointer;
+}
+#qus{
+    color: black;
+
+}
